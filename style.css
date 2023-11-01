@@ -53,3 +53,28 @@ input[type="text"]{
     color: #fff; /* Change the text color on hover */
     cursor: pointer; /* Change the cursor to a pointer on hover */
 }
+@media only screen and (max-width: 600px) {
+    h1, h2{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2rem;
+    }
+    table{
+       width: max-content;
+       height: max-content;
+    }
+    input[type="button"]{
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 15px;
+
+    }
+    input[type="text"]{
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    }
+    body{
+        background-attachment: scroll;
+        background-repeat: repeat;
+    }
+}
